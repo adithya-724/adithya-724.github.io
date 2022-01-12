@@ -1,0 +1,9 @@
+.no-items {
+  color: #f9c74f;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.list {
+  padding: 0;
+}

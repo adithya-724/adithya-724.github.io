@@ -1,0 +1,19 @@
+.date {
+  list-style: none;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  background-color: #43aa8b;
+  color: #fff;
+  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.15) inset,
+    -1rem -1rem 2rem rgba(255, 255, 255, 0.15) inset;
+  width: 15rem;
+}
+.date-month,
+.date-year {
+  font-size: 2rem;
+}
+
+.date .date-day {
+  font-size: 3.5rem;
+}

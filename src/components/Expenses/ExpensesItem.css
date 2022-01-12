@@ -1,0 +1,45 @@
+.container {
+  font-size: 1.5rem;
+  margin: 2rem;
+  background-color: #f8961e;
+  padding: 1rem;
+  color: aliceblue;
+  color: #000;
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.items {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .date {
+  font-size: 2rem;
+}
+.items .price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #43aa8b;
+  padding: 0.5rem;
+  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.1) inset,
+    -1rem -1rem 2rem rgba(255, 255, 255, 0.1) inset;
+  border-radius: 0.5rem;
+}
+
+@media only screen and (min-width: 696px) {
+  .items {
+    flex-direction: row;
+    flex: 1;
+  }
+  .items h2 {
+    margin-right: 2rem;
+    flex: 2;
+  }
+}
